@@ -1,0 +1,109 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-image: url(./photo-1580927752452-89d86da3fa0a.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+background-size: cover;
+height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contact Form Container */
+.contact-form {
+    background-image: url();
+    background: rgba(red, green, blue, 0.1);
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Form Heading */
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #eef2e9;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Labels */
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #ebf1f1;
+}
+
+/* Inputs & Textarea */
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #1e1818;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+/* Focus effect */
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #1e1a1a9d;
+    outline: none;
+}
+
+/* Error Message */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+/* Success Message */
+.success-message {
+    color: rgb(241, 255, 247);
+    text-align: center;
+    margin-top: 16px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+button[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    background-color: #0b83aa;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+button[type="submit"]:hover {
+    background-color: #1c5d8f;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .contact-form {
+        padding: 30px 20px;
+    }
+}
